@@ -4,9 +4,6 @@ FROM openjdk:8-jdk-alpine
 # Add Maintainer Info
 MAINTAINER Rajeev Kumar Singh <callicoder@gmail.com>
 
-ARG GIT_COMMIT=unspecified
-LABEL git_commit=$GIT_COMMIT
-
 # Add a volume pointing to /tmp
 VOLUME /tmp
 
